@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <div ><h1 class="heading">SIRAJ's Stop Watch</h1></div>
+    <div class="container">
+        <div class="main"><p id="stopwatch" class="digit">00 : 00 : 00</p></div>
+    <div >
+        <ul id="button" >
+            <li>
+                <button class="btn" onclick="start()" >Start</button>
+            </li>
+            <li>
+                <button class="btn" onclick="stop()">Stop</button>
+            </li>
+            <li>
+                <button class="btn1" onclick="pause()">Pause</button>
+            </li>
+            <li>
+                <button class="btn2" onclick="restart()">Reset</button>
+            </li>
+            <li>
+                <button class="btn3" onclick="resetlap()">Resetlap</button>
+            </li>
+            <li>
+                <button class="btn4" onclick="lap()">Lap</button>
+                
+            </li>
+            <li>
+                <ul id="laps"></ul>
+            </li>
+            
+        </ul>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
