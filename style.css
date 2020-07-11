@@ -1,0 +1,173 @@
+body{
+    text-align: center;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+
+    
+}
+.container{
+    
+    width: 50%;
+    height: 600px;
+    margin: 80px auto;
+   
+}
+
+.digit{
+    margin: 25% auto 15% auto;
+    padding: 30px;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius:  0% 50% ;
+    background-color: rgba(7, 7, 7, 0.733);
+
+}
+.heading{
+    color: rgba(0, 0, 0, 0.836);
+    font-size: 70px;
+    
+    
+}
+.heading:hover{
+    color: black;
+    text-decoration: underline;
+}
+#button{
+   margin: 0 20px 0 0;
+    padding-right: 0px;
+}
+#button li {
+    list-style-type: none;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 60px;
+}
+.btn1{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 54px;
+}
+.btn2{
+    background-color: rgba(0, 0, 0, 0.753);
+color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 55px;    
+}
+.btn3{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 45px;
+}
+.btn4{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 62px;
+}
+.btn:hover,.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+    padding: 8px 100px;
+    font-size: 20px;
+}
+/* Media Quiery */
+@media only screen and (max-width: 850px) {
+    .heading{
+        font-size: 40px;
+    }
+    .digit{
+        font-size: 20px;
+        padding: 20px 30px;
+    }
+    ul{
+        padding: 0 0 0 15px;
+    }
+    .btn:hover,.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+     
+        font-size: 15px;
+        padding: 8px 100px;
+    }
+    }
+@media only screen and (max-width: 450px){
+    .btn:hover{
+        padding: 8px 60px;
+    }
+    .btn{
+        padding: 8px 59px;
+    }
+    .btn1{
+        padding: 8px 53.5px;
+    }
+    .btn2{
+        padding: 8px 55px;    
+    }
+    .btn3{
+        padding: 8px 45px;
+    }
+    .btn4{
+        padding: 8px 62px;
+    }
+    .btn1:hover{
+        padding: 8px 54px
+    }
+    .btn2:hover{
+        padding: 8px 56px
+    }
+    .btn3:hover{
+        padding: 8px 46px
+    }
+    .btn4:hover{
+     
+        padding: 8px 63px;
+    }
+}     
+  @media only screen and (max-width: 360px) {
+    .heading{
+        font-size: 40px;
+    }
+    .digit{
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+    ul{
+        padding: 0;
+    }
+    .btn:hover,.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+     
+        font-size: 15px;
+    }
+    .btn{
+        padding: 8px 59px;
+    }
+    .btn1{
+        padding: 8px 53px;
+    }
+    .btn2{
+        padding: 8px 55px;    
+    }
+    .btn3{
+        padding: 8px 45px;
+    }
+    .btn4{
+        padding: 8px 62px;
+    }
+  }
